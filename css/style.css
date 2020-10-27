@@ -24,6 +24,7 @@ body {
 
 .content-container {
   max-width: 80rem;
+  margin: 0 auto;
 }
 
 .nav {
@@ -65,4 +66,20 @@ body {
   text-decoration: underline overline wavy;
   color: rgb(60, 255, 158);
   text-shadow: 1px 1px 1px steelblue;
+}
+
+.background1 {
+  background-image: linear-gradient(hotpink, white);
+}
+
+.main-blob {
+  padding: 3rem;
+}
+
+.blob-text {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(201, 164, 0, 0.753);
+  text-shadow: 1px 1px 1px rgb(136, 255, 0), 2px 2px 2px rgb(0, 0, 0);
+  line-height: 2.7rem;
 }

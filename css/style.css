@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: khaki;
+}
+
+header {
+  background-color: lawngreen;
+  background-image: linear-gradient(blue, hotpink);
+}
+
+.nav {
+  background-color: rgb(255, 230, 0);
+  height: 15rem;
+  padding: 1rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.nav-link {
+  display: inline-block;
+  font-size: 3rem;
+  height: 24%;
+  width: 24%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nav-link a {
+  text-decoration: underline overline wavy;
+  color: rgb(60, 255, 158);
+  text-shadow: 1px 1px 1px steelblue;
+}

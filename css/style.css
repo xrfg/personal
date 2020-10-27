@@ -15,18 +15,28 @@ body {
   background-color: khaki;
 }
 
-header {
+.header {
   background-color: lawngreen;
-  background-image: linear-gradient(blue, hotpink);
+  background-image: linear-gradient(rgb(166, 255, 185), hotpink);
+  height: 18rem;
+  padding: 1.5rem;
+}
+
+.content-container {
+  max-width: 80rem;
 }
 
 .nav {
-  background-color: rgb(255, 230, 0);
+  /*  background-color: rgb(255, 230, 0); */
+  background-image: linear-gradient(
+    rgba(255, 105, 180, 0),
+    rgba(255, 0, 43, 0.137)
+  );
   height: 15rem;
   padding: 1rem;
-  max-width: 80rem;
   margin: 0 auto;
   border-radius: 50%;
+  display: block;
 }
 
 .nav-link {
@@ -34,7 +44,7 @@ header {
   font-size: 3rem;
   height: 24%;
   width: 24%;
-  padding: 2rem;
+  padding: 2.6rem;
   text-align: center;
 }
 

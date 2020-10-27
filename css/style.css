@@ -72,6 +72,18 @@ body {
   background-image: linear-gradient(hotpink, white);
 }
 
+.background2 {
+  background-image: linear-gradient(white, rgb(166, 255, 185));
+}
+
+.footer {
+  padding: 1rem;
+  height: 5rem;
+  font-size: 1.6rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(60, 255, 158);
+}
+
 .main-blob {
   padding: 3rem;
 }

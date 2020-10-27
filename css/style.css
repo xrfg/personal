@@ -39,6 +39,19 @@ body {
   display: block;
 }
 
+.main-arena-title {
+  font-size: 1.6rem;
+  margin: 0 auto;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.8rem;
+  color: rgb(126, 0, 243);
+  background-color: rgba(0, 221, 210, 0.137);
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+}
+
 .nav-link {
   display: inline-block;
   font-size: 3rem;

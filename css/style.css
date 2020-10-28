@@ -34,38 +34,33 @@ body {
     rgba(255, 0, 43, 0.137)
   );
   height: 15rem;
-  padding: 1rem;
   margin: 0 auto;
   border-radius: 50%;
   display: block;
 }
 
-.main-arena-title {
+.running-banner {
   font-size: 1.6rem;
   margin: 0 auto;
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: 0.8rem;
-  color: rgb(126, 0, 243);
+  color: rgb(73, 212, 143);
   background-color: rgba(0, 221, 210, 0.137);
   text-align: left;
   display: inline-block;
   width: 100%;
 }
 
-.nav-link {
-  display: inline-block;
-  font-size: 3rem;
-  height: 24%;
-  width: 24%;
-  padding: 2.6rem;
+.div-random-link {
   text-align: center;
+  padding-top: 2.3rem;
 }
 
-.nav-link a {
-  text-decoration: underline overline wavy;
-  color: rgb(60, 255, 158);
-  text-shadow: 1px 1px 1px steelblue;
+.div-random-link a {
+  font-size: 4.5rem;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px steelblue;
 }
 
 .background1 {
